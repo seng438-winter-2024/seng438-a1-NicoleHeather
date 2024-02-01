@@ -4,10 +4,10 @@
 
 | Group: Group Number      |
 |-----------------|
-| Student 1 name                |   
-| Student 2 name              |   
-| Student 3 name               |   
-| Student 4 name                |   
+| Celina Hy                |   
+| Nicole Heather           |   
+| Nelson Thompson          |   
+| Jenifer Jay              |   
 
 
 **Table of Contents**
@@ -33,8 +33,7 @@ learned	1](#_Toc439194682)
 
 # Introduction
 
-An introduction of your lab work, and what you knew about exploratory and manual
-functional testing before this lab
+Testing is a cricial aspect of software engineering, it helps to ensure the quality and efficiency of a product while also providing a pathway of communication between developer and client. The purpose of this lab is to explore the pracical procedures and introdcuce proper bug reporting in a team enviroment. This groups knowledge of exploratory and manual testing was purely theoretical before the execution of this lab, but after we now have a better understanding of how testing procedure takes place in a practical development enviroment.
 
 # High-level description of the exploratory testing plan
 
