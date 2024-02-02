@@ -26,7 +26,7 @@
 
 [5 How the pair testing was managed and team work/effort was divided 1](#How_the_pair_testing_was_managed_and_team_work/effort_was_divided)
 
-[6 Difficulties encountered, challenges overcome, and lessonslearned	1](#Difficulties_encountered,_challenges_overcome,_and_lessons_learned)
+[6 Difficulties encountered, challenges overcome, and lessons learned	1](#Difficulties_encountered,_challenges_overcome,_and_lessons_learned)
 
 [7 Comments/feedback on the lab and lab document itself	1](#Comments/feedback_on_the_lab_and_lab_document_itself)
 
@@ -40,14 +40,22 @@ Test Strategy:
 	We wanted to focus our attention on the functionalities that are the most used and if the system could handle incorrect inputs, as these kinds of inputs are a majority of what the ATM must deal with. These inputs should mostly be sequential, unless a bug causes the system to become unresponsive. For this specific system there is also a lot for the program to keep track of, such as the total balance and amount available. It is important to test for those values being correct, while also recording them in the receipt and log. 
 
 Features To Be Tested:
-Functionality 	            Actors/Users	Description
-Account Withdraw	        Customer 	    Customer: Can withdraw from a chosen account
-Account Transfer	        Customer 	    Customer: can transfer from one account to another
-Account Deposit	            Customer 	    Customer: Can deposit from a chosen account
-Account Inquiry	            Customer	    Customer: Can see the total balance and amount available for a certain account
-Card/Pin Authentication	    Customer	    Customer: A customer can re-enter their pin or card number if incorrect
-Transaction Canceling	    Customer	    Customer: can cancel transaction, then either continue or quit ATM
-Receipt Retrieval 	        Customer	    Customer: can take a receipt that has all transactions up until that point
+
+|Functionality 	          |  Actors/Users |	Description
+|-------------------------|---------------|---------------------------------------------------------------------------------------
+|Account Withdraw	      | Customer 	  |  Customer: Can withdraw from a chosen account
+|-------------------------|---------------|---------------------------------------------------------------------------------------
+|Account Transfer	      |  Customer 	  |  Customer: can transfer from one account to another
+|-------------------------|---------------|---------------------------------------------------------------------------------------
+|Account Deposit	      |  Customer 	  |  Customer: Can deposit from a chosen account
+|-------------------------|---------------|---------------------------------------------------------------------------------------
+|Account Inquiry	      |  Customer	  |  Customer: Can see the total balance and amount available for a certain account
+|-------------------------|---------------|---------------------------------------------------------------------------------------
+|Card/Pin Authentication  |	 Customer	  |  Customer: A customer can re-enter their pin or card number if incorrect
+|-------------------------|---------------|---------------------------------------------------------------------------------------
+|Transaction Canceling	  |  Customer	  |  Customer: can cancel transaction, then either continue or quit ATM
+|-------------------------|---------------|---------------------------------------------------------------------------------------
+|Receipt Retrieval 	      |  Customer	  |  Customer: can take a receipt that has all transactions up until that point
 
 The functionalities not accounted for are:
 o	User interface functionality
