@@ -99,7 +99,7 @@ Test Environment:
 Schedule and Estimation:
 All Project Tasks and Execution:
 |Task	                | Members	                   |    Estimate Effort
-|------------------------------------------------------------------------------
+|-----------------------|------------------------------|-----------------------
 |Perform Test Execution | Test Manager, Test Executors |	4 man – 1/2 hour
 |Test Reporting 	    | Test Manager, Test Executors |	4 man – 36 hours
 |Total		            |                              | 4 man - 36 ½ hours
