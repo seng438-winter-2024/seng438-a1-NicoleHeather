@@ -44,17 +44,11 @@ Features To Be Tested:
 |Functionality 	          |  Actors/Users |	Description
 |-------------------------|---------------|---------------------------------------------------------------------------------------
 |Account Withdraw	      | Customer 	  |  Customer: Can withdraw from a chosen account
-|-------------------------|---------------|---------------------------------------------------------------------------------------
 |Account Transfer	      |  Customer 	  |  Customer: can transfer from one account to another
-|-------------------------|---------------|---------------------------------------------------------------------------------------
 |Account Deposit	      |  Customer 	  |  Customer: Can deposit from a chosen account
-|-------------------------|---------------|---------------------------------------------------------------------------------------
 |Account Inquiry	      |  Customer	  |  Customer: Can see the total balance and amount available for a certain account
-|-------------------------|---------------|---------------------------------------------------------------------------------------
 |Card/Pin Authentication  |	 Customer	  |  Customer: A customer can re-enter their pin or card number if incorrect
-|-------------------------|---------------|---------------------------------------------------------------------------------------
 |Transaction Canceling	  |  Customer	  |  Customer: can cancel transaction, then either continue or quit ATM
-|-------------------------|---------------|---------------------------------------------------------------------------------------
 |Receipt Retrieval 	      |  Customer	  |  Customer: can take a receipt that has all transactions up until that point
 
 The functionalities not accounted for are:
@@ -68,9 +62,10 @@ o	Performance
 Test Type: We are purely using exploratory testing for this lab.
 
 Risk and Issues: 
-Risk	                                    Mitigation
-The project schedule could be too strict	Ensure open communication to possibly reschedule or re-assign tasks
-Lack of knowledge about Azure	Take the time to educate team on the functionalities and benefits of Azure
+|Risk	                                   | Mitigation
+|------------------------------------------|-----------------------------------------------------------------------------
+|The project schedule could be too strict  | Ensure open communication to possibly reschedule or re-assign tasks
+|Lack of knowledge about Azure	           | Take the time to educate team on the functionalities and benefits of Azure
 
 Who is testing? 
 	The main four members of this lab group will complete this testing together. There are no cost or time constraints within this lab.
@@ -86,32 +81,36 @@ Test Criteria:
 
 Resource Planning:
 System Requirements:
-No.	Resources 	        Description 
-1.	Computer	        Needs to be able to download and run both applications. No other requirements 
-2.	Azure	            Needs to be able to accurately maintain the information we provide about our bugs
-3.	Microsoft Excel	    Needs to be understandable and facilitate cooperation across team members 
+|No.	Resources 	  |  Description 
+|---------------------|-------------------------------------------------------------------------------------
+|1.	Computer	      |  Needs to be able to download and run both applications. No other requirements 
+|2.	Azure	          |  Needs to be able to accurately maintain the information we provide about our bugs
+|3.	Microsoft Excel	  |  Needs to be understandable and facilitate cooperation across team members 
 
 Human Requirements:
-No.	Resources 	        Description 
-1.	Test Manager	    Manages and directs the process of exploratory testing.
-2.	Test Executer	    Performs the actual test cases and records their progress, also reporting the bugs in Azure
+|No.	Resources 	 |   Description 
+|--------------------|-------------------------------------------------------------------------------------------------
+|1.	Test Manager	 |   Manages and directs the process of exploratory testing.
+|2.	Test Executer	 |   Performs the actual test cases and records their progress, also reporting the bugs in Azure
 
 Test Environment:
 	The testing environment remains relatively simple for the purposes of this lab. For the exploratory section there are two pairs working on one computer each. They both run the application with the previously discussed plans.
 
 Schedule and Estimation:
 All Project Tasks and Execution:
-Task	                Members	                        Estimate Effort
-Perform Test Execution 	Test Manager, Test Executors 	4 man – 1/2 hour
-Test Reporting 	        Test Manager, Test Executors 	4 man – 36 hours
-Total		                                            4 man - 36 ½ hours
+|Task	                | Members	                   |    Estimate Effort
+|------------------------------------------------------------------------------
+|Perform Test Execution | Test Manager, Test Executors |	4 man – 1/2 hour
+|Test Reporting 	    | Test Manager, Test Executors |	4 man – 36 hours
+|Total		            |                              | 4 man - 36 ½ hours
 
 Schedule to Complete Tasks:
-Task Name	            Start Date	            End Date 
-Perform Test Execution 	Thursday, Jan 25 2024	Sunday, Jan 28 2024
-Milestone 	            Monday, Jan 29 2024	    Monday, Jan 29 2024
-Test Reporting	        Monday, Jan 29 2024	    Thursday, Jan 30 2024
-Milestone	            Thursday, Jan 30 2024	Thursday, Jan 30 2024
+|Task Name	             | Start Date	         |  End Date 
+|------------------------|-----------------------|-------------------------
+|Perform Test Execution  | Thursday, Jan 25 2024 |	Sunday, Jan 28 2024
+|Milestone 	             | Monday, Jan 29 2024	 |  Monday, Jan 29 2024
+|Test Reporting	         | Monday, Jan 29 2024	 |  Thursday, Jan 30 2024
+|Milestone	             | Thursday, Jan 30 2024 |	Thursday, Jan 30 2024
 
 Test Deliverables:
 	Before testing phase:
